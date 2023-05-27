@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-gradient-to-br from-indigo-950 to-neutral-950 from-0% to-100%">
-      <div className="absolute left-0 top-0 rounded-full -translate-x-1/2 -translate-y-1/2 blur-3xl w-96 h-96 bg-indigo-600" />
+    <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-gradient-to-br from-indigo-950 to-neutral-950">
+      <div className="absolute left-0 top-0 z-0 rounded-full -translate-x-1/2 -translate-y-1/2 blur-3xl w-96 h-96 bg-indigo-600" />
       <Image
         width={3008}
         height={2000}
